@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "foocat_tao_huang"
+version = "0.1.0"
+description = "this is for master Zao"
+authors = ["taohuang-ubc <tonyhuang0526ubc@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
