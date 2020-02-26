@@ -1,7 +1,31 @@
-package = []
+[[package]]
+category = "main"
+description = "Docutils -- Python Documentation Utilities"
+name = "docutils"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "0.16"
+
+[[package]]
+category = "main"
+description = "A Python 2.* port of 3.4 Statistics Module"
+name = "statistics"
+optional = false
+python-versions = "*"
+version = "1.0.3.5"
+
+[package.dependencies]
+docutils = ">=0.3"
 
 [metadata]
-content-hash = "669741988c507fb04697bdb0c9077fa1b2342c356df6ae6c96baa3119a96a9ea"
+content-hash = "8db3e718669a61092f8e5f68a2f30bf566bc2416f4c1f042bc3f6eaa5bb85189"
 python-versions = "^3.7"
 
 [metadata.files]
+docutils = [
+    {file = "docutils-0.16-py2.py3-none-any.whl", hash = "sha256:0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af"},
+    {file = "docutils-0.16.tar.gz", hash = "sha256:c2de3a60e9e7d07be26b7f2b00ca0309c207e06c100f9cc2a94931fc75a478fc"},
+]
+statistics = [
+    {file = "statistics-1.0.3.5.tar.gz", hash = "sha256:2dc379b80b07bf2ddd5488cad06b2b9531da4dd31edb04dc9ec0dc226486c138"},
+]
